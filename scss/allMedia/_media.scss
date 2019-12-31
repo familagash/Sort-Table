@@ -1,0 +1,177 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main-header {
+    padding-top: 12px !important;
+    height: auto;
+    // *Navigation bar
+    .nav {
+      flex-direction: column;
+
+      img {
+        height: 38px;
+        width: 30px;
+      }
+      .arrow {
+        font-size: 46px;
+      }
+
+      ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    // *Showcase
+    .showcase {
+      width: 200px;
+      margin-top: 68px;
+
+      &__img {
+        width: 90px;
+        height: 80px;
+      }
+
+      .poligon {
+        width: 160px;
+      }
+
+      .poligon-rel {
+        bottom: 30px !important;
+        left: 47px !important;
+
+        h2 {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .scroll {
+      top: 138px;
+      &__img {
+        margin: 0 auto;
+      }
+
+      &__desc {
+        text-align: center;
+      }
+    }
+  }
+  // *AllServices
+
+  .allservices {
+    padding-top: 0;
+    text-align: center;
+
+    .services {
+      flex-direction: column;
+      margin: 0 50px;
+    }
+
+    .bottom-line {
+      margin: 0 auto;
+    }
+
+    .service1 {
+      margin-bottom: 10px;
+      margin-right: 5px;
+    }
+    .service2 {
+      margin-bottom: 10px;
+      margin-right: 5px;
+
+    }
+  }
+
+  /* Ourscore */
+
+  .ourscore {
+    height: auto;
+    width: 100%;
+
+    .bcg-opacity {
+      height: 100%;
+    }
+
+    .flex-items {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin: 0 auto;
+      width: auto !important;
+      padding-top: 155px !important;
+
+      //   Shows only 3 div
+      .blc {
+        display: none;
+      }
+
+      .flex-item {
+        height: 110px;
+        width: 216px;
+      }
+    }
+  }
+
+  .data-table {
+    &__content {
+      padding: 0 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 968px) {
+  .showcase {
+    &__title {
+      padding: 0 20px;
+    }
+  }
+
+  .scroll {
+    top: 150px !important;
+    .center {
+      margin: 0 auto;
+    }
+
+    &__desc {
+      text-align: center;
+    }
+  }
+
+  // AllServices
+  .allservices {
+    padding-top: 0 !important;
+    .services {
+      padding: 0 20px;
+    }
+  }
+
+  .ourscore {
+    height: auto;
+    width: 100%;
+
+    .flex-items {
+      flex-direction: row;
+      margin: 0 auto;
+      padding-top: 130px !important;
+      width: auto !important;
+    }
+
+    .blc {
+      display: block;
+    }
+  }
+}
+
+@media screen and (min-width: 969px) and (max-width: 1200px) {
+  .ourscore {
+    height: auto;
+    .flex-items {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 80% !important;
+    }
+
+    .blc {
+      display: block;
+    }
+  }
+}
